@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mint-500: oklch(0.72 0.11 178);
+  --color-white: #fff;
+  --color-light-gray: #f1f3f9;
+  --color-dark-blue-100: #142467;
+  --color-dark-blue-90: #2b4aa1;
+  --color-dark-blue-80: #1d69d8;
+  --color-dark-blue-70: #5179d6;
+  --color-light-blue-50: #8db0ec;
+  --color-light-blue-20: #a8cefa;
+  --color-light-blue-10: #e1e8f4;
+  --color-light-green-50: #3AD4EC;
+  --color-purple: #7E49E9;
+  --color-orange: #F18D4A;
+  --color-yellow: #FFC107;
+  --color-blue-onover: #1D69D8;
+  --color-blue-bg-onover: #a8cefac3;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: #222323c0;
+  box-sizing: border-box;
+  background-color: #f1f3f9;
+}
+
+input[type="radio"] {
+  transform: scale(1.5); /* Adjust size (1.5x larger) */
+  margin-right: 10px; /* Add spacing if needed */
+}
+
